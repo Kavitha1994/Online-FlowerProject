@@ -1,0 +1,57 @@
+package com.niit.EComBack.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+@Entity
+public class Orders {
+@Id
+String Orderid;
+@Column(nullable = false)
+
+int Cartid;
+@Column(nullable = false)
+int Pid;
+@Column(nullable = false)
+String Pname;
+@Column(nullable = false)
+int quantity;
+@Column(nullable = false)
+int subTot;
+public String getOrderid() {
+	return Orderid;
+}
+public void setOrderid(String orderid) {
+	Orderid = orderid;
+}
+public int getCartid() {
+	return Cartid;
+}
+public void setCartid(int cartid) {
+	Cartid = cartid;
+}
+public int getPid() {
+	return Pid;
+}
+public void setPid(int pid) {
+	Pid = pid;
+}
+public String getPname() {
+	return Pname;
+}
+public void setPname(String pname) {
+	Pname = pname;
+}
+public int getQuantity() {
+	return quantity;
+}
+public void setQuantity(int quantity) {
+	this.quantity = quantity;
+}
+public int getSubTot() {
+	return subTot;
+}
+public void setSubTot(int subTot) {
+	this.subTot = subTot;
+}
+}

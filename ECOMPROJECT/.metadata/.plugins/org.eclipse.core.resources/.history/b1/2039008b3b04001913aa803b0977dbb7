@@ -1,0 +1,21 @@
+package com.niit.EComBack.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+@Entity
+public class Orders {
+@Id
+String Orderid;
+@Column(nullable = false)
+
+int Cartid;
+@Column(nullable = false)
+int Pid;
+@Column(nullable = false)
+String Pname;
+@Column(nullable = false)
+int quantity;
+@Column(nullable = false)
+int subTot;
+}

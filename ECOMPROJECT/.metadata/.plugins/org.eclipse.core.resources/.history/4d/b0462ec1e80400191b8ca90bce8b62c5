@@ -1,0 +1,68 @@
+package com.niit.EComBack.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Address {
+@Id
+@GeneratedValue(strategy = GenerationType.AUTO)
+int addressId;
+@Column(nullable = false)
+int Cartid;
+@Column(nullable = false)
+String AddL1;
+@Column(nullable = false)
+String AddL2;
+@Column(nullable = false)
+String City;
+@Column(nullable = false)
+String State;
+@Column(nullable = false)
+String Pincode;
+public int getAddressId() {
+	return addressId;
+}
+public void setAddressId(int addressId) {
+	this.addressId = addressId;
+}
+public int getCartid() {
+	return Cartid;
+}
+public void setCartid(int cartid) {
+	Cartid = cartid;
+}
+public String getAddL1() {
+	return AddL1;
+}
+public void setAddL1(String addL1) {
+	AddL1 = addL1;
+}
+public String getAddL2() {
+	return AddL2;
+}
+public void setAddL2(String addL2) {
+	AddL2 = addL2;
+}
+public String getCity() {
+	return City;
+}
+public void setCity(String city) {
+	City = city;
+}
+public String getState() {
+	return State;
+}
+public void setState(String state) {
+	State = state;
+}
+public String getPincode() {
+	return Pincode;
+}
+public void setPincode(String pincode) {
+	Pincode = pincode;
+}
+}

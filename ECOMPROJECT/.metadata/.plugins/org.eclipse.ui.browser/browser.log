@@ -1,0 +1,32 @@
+
+Dec 04, 2018 21:50:32.25 NEW SESSION
+Dec 04, 2018 21:50:32.25 [3516:7896:1204/215032:ERROR:audio_low_latency_output_win.cc(268)] Bailing out due to non-perfect timing.
+
+Dec 12, 2018 16:23:17.17 NEW SESSION
+Dec 12, 2018 16:23:17.17 [5732:6628:1212/162317:ERROR:audio_low_latency_output_win.cc(268)] Bailing out due to non-perfect timing.
+
+Dec 13, 2018 14:55:01.57 NEW SESSION
+Dec 13, 2018 14:55:01.57 [3528:6876:1213/145501:ERROR:audio_low_latency_output_win.cc(268)] Bailing out due to non-perfect timing.
+
+Dec 15, 2018 11:59:04.76 NEW SESSION
+Dec 15, 2018 11:59:04.76 [2884:10348:1215/115904:ERROR:audio_low_latency_output_win.cc(268)] Bailing out due to non-perfect timing.
+
+Dec 17, 2018 18:59:52.48 NEW SESSION
+Dec 17, 2018 18:59:52.48 [9044:8792:1217/185952:ERROR:audio_low_latency_output_win.cc(268)] Bailing out due to non-perfect timing.
+
+Dec 18, 2018 14:42:42.20 NEW SESSION
+Dec 18, 2018 14:42:42.20 [9772:6952:1218/144242:ERROR:CONSOLE(0)] "Unrecognized Content-Security-Policy directive 'upgrade-insecure-requests'.
+Dec 18, 2018 14:42:42.22 ", source: https://stackoverflow.com/questions/22938689/info-no-spring-webapplicationinitializer-types-detected-on-classpath (0)
+
+Dec 20, 2018 10:51:54.97 NEW SESSION
+Dec 20, 2018 10:51:54.97 [10864:7360:1220/105154:ERROR:data_fetcher_impl_win.cc(111)] DataFetcherImplWin::Initialize failed!
+
+Dec 21, 2018 13:15:45.18 NEW SESSION
+Dec 21, 2018 13:15:45.18 [7580:5640:1221/131545:ERROR:audio_low_latency_output_win.cc(268)] Bailing out due to non-perfect timing.
+
+Dec 24, 2018 17:50:15.66 NEW SESSION
+Dec 24, 2018 17:50:15.66 [5396:12248:1224/175015:ERROR:audio_low_latency_output_win.cc(268)] Bailing out due to non-perfect timing.
+
+Dec 27, 2018 12:09:12.62 NEW SESSION
+Dec 27, 2018 12:09:12.62 [3744:460:1227/120912:ERROR:data_fetcher_impl_win.cc(111)] DataFetcherImplWin::Initialize failed!
+Dec 27, 2018 12:09:24.13 [3744:9860:1227/120924:ERROR:data_fetcher_impl_win.cc(111)] DataFetcherImplWin::Initialize failed!

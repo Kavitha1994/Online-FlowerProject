@@ -1,0 +1,8 @@
+package com.niit.EComBack.dao;
+import java.util.List;
+import com.niit.EComBack.model.Orders;
+public interface OrderDAO {
+	public boolean add(Orders order);
+	public List<Orders> listOrder(int cartid);
+	public Orders getOrder(String orderid);
+}

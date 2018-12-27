@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Dec 27 12:29:13 IST 2018
+org.eclipse.jst.j2ee.server\:EComBack=WEB-INF/lib/EComBack-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Admin\\.m2\\repository\\org\\springframework\\spring-web\\5.1.1.RELEASE\\spring-web-5.1.1.RELEASE.jar=WEB-INF/lib/spring-web-5.1.1.RELEASE.jar

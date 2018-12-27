@@ -1,0 +1,57 @@
+package com.niit.EComBack.model;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+@Entity
+public class Orders {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	int id;
+
+
+
+	@Column
+	private String orderid;
+
+
+
+	@Column(nullable = false)
+	private int cartid;
+
+	
+
+	@Column(nullable = false)
+	private int addressid;
+
+	
+
+	@Column(nullable = false)
+	private Date odate;
+
+
+
+	@Column(nullable = false)
+	private int pid;
+
+
+
+	@Column(nullable = false)
+	private String product_Name;
+
+
+
+	@Column(nullable = false)
+	private int quantity;
+
+
+
+	@Column(nullable = false)
+	private int price;
+
+}
